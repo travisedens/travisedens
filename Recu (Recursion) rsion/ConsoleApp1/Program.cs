@@ -101,6 +101,7 @@ namespace ConsoleApp1
                 return 1;
             else
                 return number * factorial_Recursion(number - 1);
+            MainMenu();
         }
         public static void Naked()
         {
